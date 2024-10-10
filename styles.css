@@ -2,12 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Cormorant-Garamond;
-
+  font-family: "DM Serif Display", serif;
 }
-/*Navbar section*/
+
+body {
+  background-color: #d8d2c2;
+  background: linear-gradient(to bottom, #4a4947, #d8d2c2);
+  width: 100vw;
+  height: 120vh;
+}
+
+/*--Navbar section--*/
 .navbar {
-  background: #798645;
+  background: #faf7f0;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -15,72 +22,106 @@
   font-size: 1rem;
   position: sticky;
   top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 .navbar__container {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
 }
+
 #navbar__logo {
-  background-color: #fff;
-  background-image: #141414;
-  background-size: 100%;
   display: flex;
   align-items: center;
   cursor: pointer;
+  color: #141414;
+  justify-content: center;
+  text-decoration: none;
+  height: 100%;
+  font-size: 2rem;
 }
+
 .navbar__menu {
   display: flex;
   text-align: center;
   justify-content: center;
   position: static;
+  list-style: none;
 }
+
 .navbar__item {
   height: 80px;
 }
+
 .navbar__links {
-  color: #fff;
+  color: #141414;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
 /*Main section*/
 
 .main {
-    background-color: #798645;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
 }
-.main__container {
-    display: grid;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 0;
-    height: 90vh;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
+
+.main__img--container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
 }
+
+#image-vectors {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+.main__content {
+  z-index: 1; /* Framför bilden */
+  color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .main__content h1 {
-    background-color: #FEFAE0;
-    font-size: 5rem;
-    font-style: bold;
-    background-size: 100%;
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 20px; /* Avstånd mellan h1 och p */
 }
+
 .main__content p {
-    font-size: 1.6rem;
-    font-style: italic;
-    color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #141414;
+  margin-top: 0;
 }
-
-
-/* Service section*/

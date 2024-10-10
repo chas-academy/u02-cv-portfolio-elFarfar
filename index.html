@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -20,7 +20,7 @@
         <a href="/" id="navbar__logo">Alex portfolio</a>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="/" class="navbar__links">Startsida</a>
+            <a href="/" class="navbar__links">Home</a>
           </li>
           <li class="navbar__item">
             <a href="/" class="navbar__links">Projects</a>
@@ -34,42 +34,55 @@
 
     <!--Hero section-->
     <div class="main">
+      <div class="main__img--container">
+        <img
+          src="/images/Vectors_.png"
+          class="content__img"
+          id="image-vectors"
+          alt="background picture"
+        />
+      </div>
       <div class="main__container">
         <div class="main__content">
-          <h1>Welcome to Alex Öhlin's portfolio</h1>
+          <h1>Welcome to Alex's portfolio</h1>
           <p>
-            I am currently studying full-stack open source development, with a
-            focus on both front-end design and back-end technologies. My passion
-            lies in creating seamless, user-friendly web experiences while
-            building robust and scalable systems behind the scenes.
+            I am currently studying <b>open source</b> with a focus on both
+            front-end design and back-end technologies.<br> My passion lies in
+            creating seamless, user-friendly web experiences <br> while building
+            robust and scalable systems behind the scenes.
           </p>
         </div>
       </div>
-    </div>
-    <!--Me section-->
-    <div class="me">
-      <div class="me__container">
-        <div class="me__content">
-          <h1>About me</h1>
-          <!--lägga in biografi-->
-          <p>**Biography**</p>
-          <img
-            src="/u02-cv-portfolio-elFarfar/images/"
-            id="Bild på mig"
-            alt="profilfoto"
-          />
+
+      <!--service section-->
+      <div class="service">
+        <div class="service__container">
+          <div class="service__content">
+            <h1>About me</h1>
+            <!--lägga in biografi-->
+            <p>**Biography**</p>
+            <img
+              clas="service__img"
+              src="/u02-cv-portfolio-elFarfar/images/"
+              id="Bild på mig"
+              alt="profilfoto"
+            />
+          </div>
         </div>
       </div>
-    </div>
 
-    <!--Footer section-->
-    <div class="footer__container">
-      <div class="footer__links">
-        <h2>My contacts</h2>
-        <a href="/">Alex.ohlin96@gmail.com</a>
-        <a href="/">Alex Öhlin</a>
-        <a href="/">CV</a>
+      <!--Footer section-->
+      <div class="footer__container">
+        <div class="footer__links">
+          <h2>My contacts</h2>
+          <a href="/">Alex.ohlin96@gmail.com</a>
+          <a href="/">Alex Öhlin</a>
+          <a href="/">CV</a>
+        </div>
       </div>
+
+      <!--Add form for contact-->
+      <!--Add *download CV*-->
     </div>
   </body>
 </html>

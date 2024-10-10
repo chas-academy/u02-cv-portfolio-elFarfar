@@ -5,8 +5,6 @@
   font-family: "DM Serif Display", serif;
 }
 
-
-
 /*--Navbar section--*/
 .navbar {
   width: 100vw;
@@ -68,7 +66,7 @@
   padding: 0 1rem;
 }
 
-/*--MAIN SECTION--*/  
+/*--MAIN SECTION--*/
 
 .main {
   background-color: #f2e5bf;
@@ -136,7 +134,7 @@
 /*-- SERVICE SECTION -- */
 .service {
   background-color: #f2e5bf;
-  background: linear-gradient(to bottom, #257180, #f2e5bf)
+  background: linear-gradient(to bottom, #257180, #f2e5bf);
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -5,6 +5,7 @@
   font-family: "DM Serif Display", serif;
 }
 
+
 /*--Navbar section--*/
 .navbar {
   width: 100vw;
@@ -66,7 +67,6 @@
   padding: 0 1rem;
   transition: color 0.5s ease;
 }
-
 .navbar__btn {
   display: flex;
   justify-content: center;
@@ -74,7 +74,6 @@
   padding: 0 1rem;
   width: 100%;
 }
-
 .button {
   display: flex;
   justify-content: center;
@@ -90,18 +89,16 @@
   color: #141414;
   font-size: 1.4rem;
 }
-
 .button:hover {
   background-color: #000000;
-  transition: all 0.3s ease;
+  transition:  all 0.3s ease;
 }
-
 .navbar__links:hover {
   color: #fff;
   transition: all 0.3s ease;
 }
-
 /*--MAIN SECTION--*/
+
 .main {
   background-color: #f2e5bf;
   background: linear-gradient(to bottom, #257180, #f2e5bf);
@@ -133,7 +130,7 @@
 }
 
 .main__container {
-  z-index: 1;
+  z-index: 1; 
   color: #141414;
   max-width: 1300px;
   width: 100%;
@@ -144,6 +141,7 @@
 .main__content {
   z-index: 1;
   position: relative;
+
 }
 
 .main__content h1 {
@@ -152,7 +150,6 @@
   font-weight: 400;
   top: -40%;
 }
-
 .main__content b {
   font-size: larger;
 }
@@ -175,17 +172,14 @@
   width: 100%;
   width: 100vw;
 }
-
 .service__container {
   height: 120vh;
 }
-
 .service__content h1 {
   color: #141414;
   font-size: 3rem;
 }
-
 .service__content p {
   color: #141414;
   font-size: 2rem;
-}/*# sourceMappingURL=styles.css.map */
+}

@@ -340,21 +340,6 @@ th {
   background-color: #CBD2A4;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "DM Serif Display", serif;
-}
-
-body {
-  height: 120vh;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 @media screen and (max-width: 480px) {
   body {
     background-color: #CBD2A4;
@@ -380,4 +365,18 @@ html {
     width: auto;
     height: auto;
   }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Serif Display", serif;
+}
+
+body {
+  height: 120vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=styles.css.map */

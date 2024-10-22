@@ -3,7 +3,7 @@
 @import 'partials/hero';
 @import 'partials/footer';
 @import 'partials/contacts';
-
+@import 'partials/mediaQuerys';
 
 
 * {
@@ -21,34 +21,4 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-//MEDIA QUIRES
-
-@media screen and (max-width: 480px ) {
-  body {
-    background-color: $lightGreenColor;
-  }
-  .navbar {
-    font-size: 0.8;
-    height: 60px;
-    display: flex;
-  }
-
-  .navbar__logo {
-    font-size: 1rem;
-  }
- 
-  .main {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: scroll;
-    padding: 0;
-    margin: 0;  
-  }
-  .service {
-    width: auto;
-    height: auto;
-  }
 }

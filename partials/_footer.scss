@@ -1,0 +1,43 @@
+.footer__container {
+    background-color: $lightGreenColor;
+    height: 300px;
+    width: 100vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer__container h2 {
+    color: $orangeColor;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.footer__links {
+    padding-top: 10px;
+    color: $blackColor;
+    display: flex;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.footer__links:hover {
+    color: $whiteColor;
+    transition: all 0.3s ease;
+}

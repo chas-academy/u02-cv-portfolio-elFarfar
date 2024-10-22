@@ -1,6 +1,6 @@
 .main {
-  background-color: #f2e5bf;
-  background: linear-gradient(to bottom, #257180, #f2e5bf);
+  background-color: $whiteColor;
+  background: linear-gradient(to bottom, #CBD2A4, #9A7E6F);
   display: flex;
   height: 120vh;
   width: 100%;
@@ -10,7 +10,7 @@
   text-align: center;
   position: relative;
   z-index: 1;
-  width: 100vw;
+  width: auto;
 }
 
 .main__img--container {
@@ -44,25 +44,23 @@
 }
 
 .main__content h1 {
-  color: #141414;
+  color: #ff761b;
   font-size: 4rem;
   font-weight: 400;
   top: -40%;
 }
-.main__content b {
-  font-size: larger;
-}
+
 
 .main__content p {
   font-size: 1.5rem;
   margin-top: 50px;
   font-weight: 200;
-  color: #141414;
+  color: #E9EED9;
 }
 
 /*-- SERVICE SECTION -- */
 .service {
-  background-color: #f2e5bf;
+  background-color: #9A7E6F;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,10 +73,10 @@
   height: 120vh;
 }
 .service__content h1 {
-  color: #141414;
-  font-size: 3rem;
+  color: #ff761b;
+  font-size: 4rem;
 }
 .service__content p {
-  color: #141414;
-  font-size: 2rem;
+  color: #E9EED9;
+  font-size: 1.5rem;
 }

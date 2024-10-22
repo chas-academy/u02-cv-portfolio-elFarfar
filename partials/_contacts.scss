@@ -1,0 +1,47 @@
+.contacts {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    background: $whiteGreenColor;
+}
+
+.contacts__container {
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.contacts__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__content h1 {
+    color: $orangeColor;
+    font-size: 3.5rem;
+}
+/*--TABELL--*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px dolid #ddd;
+    border-radius: (4px);
+}
+
+th {
+    
+    font-weight: 200;
+    background-color: $lightGreenColor;
+}

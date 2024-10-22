@@ -17,30 +17,28 @@
     <!--Navbar section-->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/index.html" id="navbar__logo">Portfolio</a>
+        <a href=#home id="navbar__logo">PORTFOLIO</a>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="/Projects.html" class="navbar__links">Projects</a>
+            <a href="#about-me" class="navbar__links">ME</a>
           </li>
           <li class="navbar__item">
-            <a href="/Files/CV Alex Ohlin.pdf" class="navbar__links">CV</a>
+            <a href="#projects" class="navbar__links">PROJECTS</a>
+          </li>
+
+         
+          <li class="navbar__item">
+            <a href="/Files/CV Alex Ohlin.pdf" taget="_blank" class="navbar__links" download="CV_Alex_Ohlin.pdf">CV</a>
           <li class="navbar__btn">
-            <a href="/Contacts.html" class="button">Contact</a>
+            <a href="#contacts" class="button">CONTACT</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!--Hero section-->
+<section id="home">
     <div class="main">
-      <div class="main__img--container">
-        <img
-          src=""
-          class="content__img"
-          id="vectorer"
-        
-        />
-      </div>
       <div class="main__container">
         <div class="main__content">
           <h1>ALEX ÖHLIN</h1>
@@ -50,38 +48,91 @@
             creating seamless, user-friendly web experiences <br> while building
             robust and scalable systems behind the scenes.
           </p>
-          </div>
         </div>
       </div>
-
-      <!--service section-->
+      <img src="/images/ARROW.png"  class="main__img--arrow" id="arrow" alt="picture on arrow"/>
+      </div>
+</section>
+      
+<!--service about me-SECTION-->
+<section id="about-me">
       <div class="service">
         <div class="service__container">
           <div class="service__content">
-            <h1>About me</h1>
+            <h1>ABOUT ME</h1>
            
-            <!--lägga in biografi-->
             <p>With experience as a professional driver, warehouse worker, and supervisor, 
-              I have developed strong leadership and teamwork skills.<br> Currently, I am studying IT,
+              I have developed strong leadership and teamwork skills. Currently, I am studying <b>fullstack-opensource</b>,
                often working on group projects that have taught me to handle multiple tasks simultaneously 
-               and prioritize effectively. <br>As a class representative, I take responsibility and drive solutions,
+               and prioritize effectively. As a class representative, I take responsibility and drive solutions,
                 further enhancing my ability to work under pressure.
-                <br>I'm passionate about delivering high-quality service and contributing to team success.<br> 
-                I am currently expanding my knowledge in HTML, CSS, SCSS, project methodology, and UX design.</p>
-            <!--lägg in foto-->
+                I'm passionate about delivering high-quality service and contributing to team success.
+                I am currently expanding my knowledge in HTML, CSS, SCSS, project methodology, and UX design.
+              
+            </p>
+       
             <img
               class="service__img"
-              src="/images/Facial-reconstruction-Alexander-the-Great-Credit-Youtube-Royalty-Now-Video-Screen-Capture-1392x1281.jpg"
-              id="Bild på mig"
-              alt="profilfoto"
-              width="400p"
-              height="400"
+              src="/images/IMG_9906.jpg"
+              id="profilfoto"
+              alt="bild på mig"
+              width="300"
+              height="600"
             />
-               
               </div>
             </div>
         </div>
       </div>
+  </section>
+    <!--Projects Section-->
+     <section id="projects">
+    <div class="projects">
+      <div class="projects__container">
+        <div class="projects__content">
+          <h1>MY WORK</h1>
+          <h2>#1 ASKBOX</h2>
+          <p>A website that makes it possible for users to ask question and get answers through mail, great for workplace 
+            or a class to get people to ask their questions not only during class/work. I used HTML, CSS and Javascript for this project.
+          </p>
+        </div>
+      </div>
+      <div class="projects__video--container">
+       <video autoplay mute loop id="background-video" width="500" height="500" >
+            <source src="/images/ASKBOX.mp4" type="video/mp4"
+            />
+            Youre browser does not support video
+            </video>
+      </div>
+      </div>
+
+     </section>
+    <!--Contact section-->
+    <section id="contacts">
+    <div class="contacts">
+      <div class="contacts__container">
+        <div class="contacts__content">
+          <h1>CONTACT</h1>
+          <!--TABELL-->
+          <table border="1">
+            <tr>
+              <th>Contact info</th>
+              <th>Details</th>
+            </tr>
+            <tr>
+          <th>Mail</th> 
+          <th>Alex.ohlin@chasacademy.se</th>
+          </tr>
+          <tr>
+            <th>Number</th>
+            <th>+46 763 477 096</th>
+            </tr>
+          </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
       <!--Footer section-->
       
@@ -89,13 +140,16 @@
         <h2>MORE</h2>
          <ul class="footer__menu">
           <li class="footer__item">
-            <a href="/Projects.html" class="footer__links">PROJECTS</a>
+            <a href="#home" class="footer__links">HOME</a>
           </li>
           <li class="footer__item">
-            <a href="/Files/CV Alex Ohlin.pdf" class="footer__links">ALEX CV</a>
+            <a href="#projects" class="footer__links">PROJECTS</a>
+          </li>
+          <li class="footer__item">
+            <a href="/Files/CV Alex Ohlin.pdf" class="footer__links" target="_blank" download="CV_Alex_Ohlin.pdf" >ALEX CV</a>
           </li>
             <li class="footer__item">
-            <a href="/Contacts.html" class="footer__links">CONTACTS</a>
+            <a href="#contacts" class="footer__links">CONTACTS</a>
             </li>
         </ul>
     </div>

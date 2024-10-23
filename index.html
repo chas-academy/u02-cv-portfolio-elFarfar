@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
     <!--Font & Fontawesome-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
   <body>
     <!--Navbar section-->
@@ -26,15 +26,15 @@
             <a href="#projects" class="navbar__links">PROJECTS</a>
           </li>
 
-         
           <li class="navbar__item">
-            <a href="Files/CV Alex Ohlin.pdf" target="_blank" class="navbar__links" download="CV_Alex_Ohlin.pdf">CV</a>
+            <a href="Files/CV_Alex_Ohlin.pdf" target="_blank" class="navbar__links" download="CV_Alex_Ohlin.pdf">CV</a>
           <li class="navbar__btn">
             <a href="#contacts" class="button">CONTACT</a>
           </li>
         </ul>
       </div>
     </nav>
+    
 
     <!--Hero section-->
 <section id="home">
@@ -50,7 +50,7 @@
           </p>
         </div>
       </div>
-      <img src="images/ARROW.png"  class="main__img--arrow" id="arrow" alt="picture on arrow"/>
+      <img src="images/ARROW.png"  class="main__img--arrow" id="arrow" alt="picture on arrow">
       </div>
 </section>
       
@@ -77,12 +77,10 @@
               id="profilfoto"
               alt="self-portrait"
               width="300"
-              height="600"
-            />
+              height="600">
               </div>
             </div>
         </div>
-      </div>
   </section>
     <!--Projects Section-->
      <section id="projects">
@@ -90,29 +88,39 @@
       <div class="projects__container">
         <div class="projects__content">
           <h1>MY WORK</h1>
-          <h2>#1 ASKBOX</h2>
-          <p>A website that makes it possible for users to ask question and get answers through mail, great for workplace 
+          <!--TABEL FOR PROJECT #1-->
+          <table>
+            <tr>
+         <th> <h2>#1 ASKBOX</h2> </th>
+          <th><p>A website that makes it possible for users to ask question and get answers through mail, great for workplace 
             or a class to get people to ask their questions not only during class/work. I used HTML, CSS and Javascript for this project.
           </p>
+          </th>
+            </tr>
         </div>
       </div>
       <div class="projects__video--container">
        <video autoplay muted loop id="background-video" width="500" height="500" >
-            <source src="images/ASKBOX.mp4" type="video/mp4" />
+            <source src="images/ASKBOX.mp4" type="video/mp4">
             Youre browser does not support video.
             </video>
       </div>
       </div>
-
+      </table>
      </section>
-    <!--Contact section-->
+  
+  
+  
+  
+     <!--Contact section-->
     <section id="contacts">
     <div class="contacts">
       <div class="contacts__container">
         <div class="contacts__content">
-          <h1>CONTACT</h1>
-          <!--TABELL-->
-          <table border="1">
+          <h1>CONTACTS</h1>
+          <!--//TABELL//-->
+          <!--grID-->
+         <table>
             <tr>
               <th>Contact info</th>
               <th>Details</th>
@@ -129,7 +137,24 @@
           </div>
         </div>
       </div>
+      </table>
     </section>
+
+    <!--SOCIAL MEDIA SECTION-->
+<div class="social__media">
+  <div class="social__media--container">
+    <div class="social__media--content">
+      <ul class="social__media--menu">
+        <li class="social__media--item">
+          <a href="/" class="social__media--links">Instagram</a>
+        </li>
+        <li class="social__media--item">
+          <a href="/" class="social__media--links">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
 
@@ -145,7 +170,7 @@
             <a href="#projects" class="footer__links">PROJECTS</a>
           </li>
           <li class="footer__item">
-            <a href="/Files/CV Alex Ohlin.pdf" class="footer__links" target="_blank" download="CV_Alex_Ohlin.pdf" >ALEX CV</a>
+            <a href="/Files/CV_Alex_Ohlin.pdf" class="footer__links" target="_blank" download="CV_Alex_Ohlin.pdf" >ALEX CV</a>
           </li>
             <li class="footer__item">
             <a href="#contacts" class="footer__links">CONTACTS</a>

@@ -322,16 +322,16 @@
 
 /*--TABELL--*/
 table {
-  width: 100%;
   border-collapse: collapse;
-  font-size: 1.5rem;
+  width: 100%;
+  font-size: 4.5rem;
   margin-top: 20px;
 }
 
 th, td {
   padding: 10px;
   text-align: left;
-  border: 1px dolid #ddd;
+  border: 1px solid #141414;
   border-radius: 4px;
 }
 

@@ -26,17 +26,19 @@
     color: $orangeColor;
     font-size: 3.5rem;
 }
+
+
 /*--TABELL--*/
 table {
-    width: 100%;
     border-collapse: collapse;
-    font-size: 1.5rem;
+    width: 100%;
+    font-size: 4.5rem;
     margin-top: 20px;
 }
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px dolid #ddd;
+    border: 1px solid $blackColor;
     border-radius: (4px);
 }
 
@@ -45,3 +47,4 @@ th {
     font-weight: 200;
     background-color: $lightGreenColor;
 }
+

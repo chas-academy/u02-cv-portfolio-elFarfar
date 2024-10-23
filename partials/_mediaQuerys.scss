@@ -1,30 +1,183 @@
-//MEDIA QUIRES
+//MEDIA QUIRES-- NAVBAR--
 
-@media screen and (max-width: 480px ) {
-  body {
-    background-color: $lightGreenColor;
-  }
+
+
+
+@media screen and (max-width: 768px) {
   .navbar {
-    font-size: 0.8;
-    height: 60px;
-    display: flex;
+    height: 50px; /* Reduce navbar height */
+    font-size: 0.9rem; /* Reduce overall font size */
   }
 
-  .navbar__logo {
-    font-size: 1rem;
+  .navbar__container {
+    padding: 0 30px;
   }
- 
-  .main {
-    display: flex;
+
+  #navbar__logo {
+    font-size: 1.5rem; /* Make logo smaller */
+  }
+
+  .navbar__menu {
+    display: none; /* Hide menu for now */
+  }
+
+  .navbar__btn {
+    display: none; /* Hide button */
+  }
+
+
+}
+
+
+
+//HERO SECTION//
+
+
+@media (max-width: 768px) {
+    .main {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem; /* Smaller heading for mobile */
+    }
+
+    .main__content p {
+        font-size: 1.2rem; /* Smaller paragraph font */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .service__content h1 {
+        font-size: 2.5rem; /* Smaller heading for service section */
+    }
+
+    .service__content p {
+        font-size: 1rem; /* Smaller paragraph font */
+        width: 80vw; /* Adjust width */
+    }
+
+    #profilfoto {
+        width: 100%; /* Make profile photo responsive */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .projects {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .projects__content h1 {
+        font-size: 2.5rem; /* Smaller heading for projects section */
+    }
+
+    .projects__content h2 {
+        font-size: 1.5rem; /* Smaller heading for projects section */
+    }
+
+    .projects__content p {
+        font-size: 1rem; /* Smaller paragraph font */
+    }
+    .projects__video--container {
+        padding: 10px; /* Less padding on mobile */
+    }
+
+    .video {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    table {
+        font-size: 0.8rem; /* Smaller table font size */
+        width: 100%; /* Make table responsive */
+    }
+
+    th, td {
+        padding: 5px; /* Adjust padding */
+    }
+}
+
+
+@media (max-width:768px) {
+    .main {
+        height: auto; 
+        padding: 20px; /* Add more padding */
+    }
+
+    .main__content h1 {
+        font-size: 3rem; /* Adjust heading size for tablet */
+    }
+
+    .main__content p {
+        font-size: 1.5rem; /* Adjust paragraph size for tablet */
+    }
+
+    .service__content h1 {
+        font-size: 3rem; /* Adjust heading size for service section */
+    }
+
+    .service__content p {
+        font-size: 1.2rem; /* Adjust paragraph size for service section */
+        width: 70vw; /* Adjust width */
+    }
+    .service, .projects {
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+    }
+    .footer__container {
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+    }
+
+    .projects__content h1 {
+        font-size: 3rem; /* Adjust heading size for projects section */
+    }
+
+    .projects__content h2 {
+        font-size: 1.7rem; /* Adjust heading size for projects section */
+    }
+
+    table {
+        font-size: 1rem; /* Reset table font size for tablet */
+    }
+
+    th, td {
+        padding: 8px; /* Adjust padding */
+    }
+}
+
+
+@media (max-width: 430px) {
+  .main  {
     width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: scroll;
-    padding: 0;
-    margin: 0;  
+      padding: 0;
+      margin: 0;
   }
   .service {
-    width: auto;
-    height: auto;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+
   }
+  .projects {
+    width: 100vw;
+    margin: 0;
+
+  }
+  table {
+    width: 100vw;
+    font-size: 0.7rem;
+
+  }
+  th, td {
+    padding: 5px;
+    width: 100vw;
+  }
+
+  td {
+    width: 100vw;
+  }
+  
 }

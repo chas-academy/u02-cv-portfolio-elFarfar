@@ -220,6 +220,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .projects__content h1 {
@@ -234,20 +235,49 @@
 .projects__content h2 {
   font-size: 2rem;
   color: #141414;
+  text-align: center;
 }
 
 .projects__content p {
   font-size: 1.5rem;
   text-align: center;
   color: #ff761b;
-  width: 50%;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  font-weight: 200;
 }
 
 .projects__video--container {
   display: flex;
   border-radius: 15px;
-  border: 5pxsolid;
   overflow: hidden;
+  align-items: center;
+}
+
+/*--TABELL--*/
+table {
+  display: flex;
+  border-collapse: separate;
+  width: auto;
+  height: auto;
+  max-width: 1300px;
+  font-size: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #141414;
+  border-radius: 4px;
+}
+
+th {
+  align-items: center;
+  background-color: #CBD2A4;
+  text-align: center;
 }
 
 .footer__container {
@@ -318,26 +348,49 @@
 .contacts__content h1 {
   color: #ff761b;
   font-size: 3.5rem;
+  margin: 40px;
 }
 
-/*--TABELL--*/
-table {
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 4.5rem;
-  margin-top: 20px;
+.contacts__content h2 {
+  color: #141414;
+  font-size: 1.9rem;
 }
 
-th, td {
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #141414;
-  border-radius: 4px;
+.contacts__content p {
+  color: #ff761b;
+  font-size: 1.4rem;
 }
 
-th {
-  font-weight: 200;
-  background-color: #CBD2A4;
+.social__media--menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  height: auto;
+  padding-top: 20px;
+}
+
+.social__media--item {
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+.social__media--links {
+  cursor: pointer;
+  color: #141414;
+  height: 100%;
+  padding: 0 30px;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+.social__media--links:hover {
+  color: #ff761b;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 480px) {

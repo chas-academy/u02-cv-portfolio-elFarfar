@@ -25,26 +25,49 @@
 .contacts__content h1 {
     color: $orangeColor;
     font-size: 3.5rem;
+    margin: 40px;
 }
 
-
-/*--TABELL--*/
-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 4.5rem;
-    margin-top: 20px;
-}
-th, td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid $blackColor;
-    border-radius: (4px);
+.contacts__content h2 {
+    color: $blackColor;
+    font-size: 1.9rem;
 }
 
-th {
-    
-    font-weight: 200;
-    background-color: $lightGreenColor;
+.contacts__content p {
+    color: $orangeColor;
+    font-size: 1.4rem;
 }
 
+// --- SOCIAL MEDIA -- //
+
+.social__media--menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+   height: auto;
+   padding-top: 20px;
+}
+
+.social__media--item {
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.social__media--links {
+  cursor: pointer ;
+  color: $blackColor;
+  height: 100%;
+  padding: 0 30px;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+.social__media--links:hover {
+    color: $orangeColor;
+    transform: scale(1.2);
+}

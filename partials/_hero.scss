@@ -175,6 +175,7 @@ align-items: center;
 table {
     display: flex;
     border-collapse:separate;
+    border-spacing: 10px;
     width: auto;
     height: auto;
     max-width: 1300px;
@@ -186,7 +187,7 @@ table {
 th, td {
     padding: 10px;
     text-align: center;
-    border: 1px solid $blackColor;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: (4px);
 }
 
@@ -194,5 +195,6 @@ th {
     align-items: center;
     background-color: $lightGreenColor;
     text-align: center;
+    width: 50px;
 } 
 

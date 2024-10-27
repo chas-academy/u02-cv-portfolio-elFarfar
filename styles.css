@@ -394,7 +394,7 @@ th {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 430px) {
   .navbar {
     height: 50px; /* Reduce navbar height */
     font-size: 0.9rem; /* Reduce overall font size */
@@ -412,123 +412,71 @@ th {
     display: none; /* Hide button */
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main {
-    height: auto; /* Allow height to adjust based on content */
-    padding: 20px; /* Add padding for better spacing */
+    height: 100vh;
   }
-  .main__content h1 {
-    font-size: 2.5rem; /* Smaller heading for mobile */
+  .main__content h1, .service__content h1, .projects__content h1 {
+    font-size: 3rem; /* Reduced font size */
   }
-  .main__content p {
-    font-size: 1.2rem; /* Smaller paragraph font */
-    margin-top: 20px; /* Adjust margin */
+  .main__content p, .service__content p, .projects__content p {
+    font-size: 1.6rem; /* Slightly smaller for readability */
   }
-  .service__content h1 {
-    font-size: 2.5rem; /* Smaller heading for service section */
+}
+@media (max-width: 768px) {
+  .main, .service, .projects {
+    height: auto; /* Adjust height for mobile scrolling */
+    padding: 20px; /* Add padding for better readability */
+  }
+  .main__content h1, .service__content h1, .projects__content h1 {
+    font-size: 2.5rem;
+  }
+  .main__content p, .service__content p, .projects__content p {
+    font-size: 1.4rem;
+  }
+  .projects__video--container, .main__img--arrow {
+    padding-top: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
   .service__content p {
-    font-size: 1rem; /* Smaller paragraph font */
-    width: 80vw; /* Adjust width */
+    width: 90%; /* Adapt width for mobile */
   }
   #profilfoto {
-    width: 100%; /* Make profile photo responsive */
-    margin-top: 20px; /* Adjust margin */
+    width: 90%;
   }
-  .projects {
-    height: auto; /* Allow height to adjust based on content */
-    padding: 20px; /* Add padding for better spacing */
+  table {
+    font-size: 0.9rem; /* Smaller font for tables */
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
   }
-  .projects__content h1 {
-    font-size: 2.5rem; /* Smaller heading for projects section */
+}
+@media (max-width: 480px) {
+  .main__content h1, .service__content h1, .projects__content h1 {
+    font-size: 2rem;
   }
-  .projects__content h2 {
-    font-size: 1.5rem; /* Smaller heading for projects section */
+  .main__content p, .service__content p, .projects__content p {
+    font-size: 1.2rem;
   }
-  .projects__content p {
-    font-size: 1rem; /* Smaller paragraph font */
+  .projects__content p, .service__content p {
+    width: 100%;
+  }
+  #profilfoto {
+    width: 80%;
   }
   .projects__video--container {
-    padding: 10px; /* Less padding on mobile */
-  }
-  .video {
-    width: 100%; /* Full width for mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%;
   }
   table {
-    font-size: 0.8rem; /* Smaller table font size */
-    width: 100%; /* Make table responsive */
+    width: 100%;
   }
-  th, td {
-    padding: 5px; /* Adjust padding */
-  }
-}
-@media (max-width: 768px) {
-  .main {
-    height: auto;
-    padding: 20px; /* Add more padding */
-  }
-  .main__content h1 {
-    font-size: 3rem; /* Adjust heading size for tablet */
-  }
-  .main__content p {
-    font-size: 1.5rem; /* Adjust paragraph size for tablet */
-  }
-  .service__content h1 {
-    font-size: 3rem; /* Adjust heading size for service section */
-  }
-  .service__content p {
-    font-size: 1.2rem; /* Adjust paragraph size for service section */
-    width: 70vw; /* Adjust width */
-  }
-  .service, .projects {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
-  .footer__container {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
-  .projects__content h1 {
-    font-size: 3rem; /* Adjust heading size for projects section */
-  }
-  .projects__content h2 {
-    font-size: 1.7rem; /* Adjust heading size for projects section */
-  }
-  table {
-    font-size: 1rem; /* Reset table font size for tablet */
-  }
-  th, td {
-    padding: 8px; /* Adjust padding */
-  }
-}
-@media (max-width: 430px) {
-  .main {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
-  .service {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
-  .projects {
-    width: 100vw;
-    margin: 0;
-  }
-  table {
-    width: 100vw;
-    font-size: 0.7rem;
-  }
-  th, td {
-    padding: 5px;
-    width: 100vw;
+  th {
+    width: 100%;
   }
   td {
-    width: 100vw;
+    width: 100%;
   }
 }
 * {

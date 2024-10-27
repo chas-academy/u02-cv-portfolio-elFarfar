@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
     <!--Font & Fontawesome-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Navbar section-->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href=#home id="navbar__logo">PORTFOLIO</a>
+        <a href="#home" id="navbar__logo">PORTFOLIO</a>
+
         <ul class="navbar__menu">
           <li class="navbar__item">
             <a href="#about-me" class="navbar__links">ME</a>
@@ -27,145 +29,179 @@
           </li>
 
           <li class="navbar__item">
-            <a href="Files/CV_Alex_Ohlin.pdf" target="_blank" class="navbar__links" download="CV_Alex_Ohlin.pdf">CV</a>
+            <a
+              href="Files/CV_Alex_Ohlin.pdf"
+              target="_blank"
+              class="navbar__links"
+              download="CV_Alex_Ohlin.pdf"
+              >CV</a
+            >
+          </li>
+
           <li class="navbar__btn">
             <a href="#contacts" class="button">CONTACT</a>
           </li>
         </ul>
       </div>
     </nav>
-    
 
     <!--Hero section-->
-<section id="home">
-    <div class="main">
-      <div class="main__container">
-        <div class="main__content">
-          <h1>ALEX ÖHLIN</h1>
-          <p>
-            Currently studying with a focus on both
-            front-end design and back-end technologies.<br> My passion lies in
-            creating seamless, user-friendly web experiences <br> while building
-            robust and scalable systems behind the scenes.
-          </p>
+    <section id="home">
+      <div class="main">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>ALEX ÖHLIN</h1>
+            <p>
+              Currently studying with a focus on both front-end design and
+              back-end technologies.<br />
+              My passion lies in creating seamless, user-friendly web
+              experiences <br />
+              while building robust and scalable systems behind the scenes.
+            </p>
+          </div>
         </div>
+        <img
+          src="images/ARROW.png"
+          class="main__img--arrow"
+          id="arrow"
+          alt="picture on arrow"
+        />
       </div>
-      <img src="images/ARROW.png"  class="main__img--arrow" id="arrow" alt="picture on arrow">
-      </div>
-</section>
-      
-<!--service about me-SECTION-->
-<section id="about-me">
+    </section>
+
+    <!--service about me-SECTION-->
+    <section id="about-me">
       <div class="service">
         <div class="service__container">
           <div class="service__content">
             <h1>ABOUT ME</h1>
-           
-            <p>With experience as a professional driver, warehouse worker, and supervisor, 
-              I have developed strong leadership and teamwork skills. Currently, I am studying <b>fullstack-opensource</b>,
-               often working on group projects that have taught me to handle multiple tasks simultaneously 
-               and prioritize effectively. As a class representative, I take responsibility and drive solutions,
-                further enhancing my ability to work under pressure.
-                I'm passionate about delivering high-quality service and contributing to team success.
-                I am currently expanding my knowledge in HTML, CSS, SCSS, project methodology, and UX design.
-              
+
+            <p>
+              With experience as a professional driver, warehouse worker, and
+              supervisor, I have developed strong leadership and teamwork
+              skills. Currently, I am studying <b>fullstack-opensource</b>,
+              often working on group projects that have taught me to handle
+              multiple tasks simultaneously and prioritize effectively. As a
+              class representative, I take responsibility and drive solutions,
+              further enhancing my ability to work under pressure. I'm
+              passionate about delivering high-quality service and contributing
+              to team success. I am currently expanding my knowledge in HTML,
+              CSS, SCSS, project methodology, and UX design.
             </p>
-       
+
             <img
               class="service__img"
               src="images/IMG_9906.jpg"
               id="profilfoto"
               alt="self-portrait"
               width="300"
-              height="600">
-              </div>
-            </div>
+              height="600"
+            />
+          </div>
         </div>
-  </section>
+      </div>
+    </section>
     <!--Projects Section-->
-     <section id="projects">
-    <div class="projects">
-      <div class="projects__container">
-        <div class="projects__content">
-          <h1>MY WORK</h1>
-          <!--TABEL FOR PROJECT #1-->
-          <table>
-            <tr>
-         <th>
-           <h2>#1 ASKBOX</h2> 
-            <p>A website that makes it possible for users to ask question and get answers through mail, great for workplace 
-            or a class to get people to ask their questions not only during class/work. I used HTML, CSS and Javascript for this project.
-          </p>
-          </th>
-            </tr>
-
-
+    <section id="projects">
+      <div class="projects">
+        <div class="projects__container">
+          <div class="projects__content">
+            <h1>MY WORK</h1>
+            <!-- TABEL FOR PROJECT #1 -->
+            <table>
+              <tr>
+                <th>
+                  <h2>#1 ASKBOX</h2>
+                  <p>
+                    A website that makes it possible for users to ask questions
+                    and get answers through mail, great for workplace or a class
+                    to get people to ask their questions not only during
+                    class/work. I used HTML, CSS, and Javascript for this
+                    project.
+                  </p>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <div class="projects__video--container">
+                    <video
+                      autoplay
+                      muted
+                      loop
+                      id="background-video"
+                      width="700"
+                    >
+                      <source src="images/ASKBOX.mp4" type="video/mp4">
+                      Your browser does not support video.
+                    </video>
+                  </div>
+                </th>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
-      <tr>
-        <th>
-      <div class="projects__video--container">
-       <video autoplay muted loop id="background-video" width="700">
-            <source src="images/ASKBOX.mp4" type="video/mp4">
-            Youre browser does not support video.
-            </video>
-            </th>
-      </tr>
-      </div>
-      </div>
-      </table>
-     </section>
-  
-  
-  
-  
-     <!--Contact section-->
+    </section>
+
+    <!--Contact section-->
     <section id="contacts">
-    <div class="contacts">
-      <div class="contacts__container">
-        <div class="contacts__content">
-          <h1>CONTACTS</h1>
-              <h2> MAIL </h2>
-              <p>Alex.ohlin@chasacademy.se</p>
-              <h2> TELEPHONE </h2>
-              <p>+46 763 477 096</p>
+      <div class="contacts">
+        <div class="contacts__container">
+          <div class="contacts__content">
+            <h1>CONTACTS</h1>
+            <h2>MAIL</h2>
+            <p>Alex.ohlin@chasacademy.se</p>
+            <h2>TELEPHONE</h2>
+            <p>+46 763 477 096</p>
           </div>
         </div>
         <!--SOCIAL MEDIA SECTION-->
-       
-          <ul class="social__media--menu">
-            <li class="social__media--item">
-              <a href="https://www.instagram.com/alxohl/" target="_blank" class="social__media--links">Instagram</a>
-            </li>
-            <li class="social__media--item">
-              <a href="https://se.linkedin.com/in/alex-%C3%B6hlin-58476b2ab" target="_blank" class="social__media--links">LinkedIn</a>
-            </li>
-          </ul>
-        </div>
-        
-          
+
+        <ul class="social__media--menu">
+          <li class="social__media--item">
+            <a
+              href="https://www.instagram.com/alxohl/"
+              target="_blank"
+              class="social__media--links"
+              >Instagram</a
+            >
+          </li>
+          <li class="social__media--item">
+            <a
+              href="https://se.linkedin.com/in/alex-%C3%B6hlin-58476b2ab"
+              target="_blank"
+              class="social__media--links"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
     </section>
 
+    <!--Footer section-->
 
-
-      <!--Footer section-->
-      
-      <div class="footer__container">
-        <h2>MORE</h2>
-         <ul class="footer__menu">
-          <li class="footer__item">
-            <a href="#home" class="footer__links">HOME</a>
-          </li>
-          <li class="footer__item">
-            <a href="#projects" class="footer__links">PROJECTS</a>
-          </li>
-          <li class="footer__item">
-            <a href="/Files/CV_Alex_Ohlin.pdf" class="footer__links" target="_blank" download="CV_Alex_Ohlin.pdf" >ALEX CV</a>
-          </li>
-            <li class="footer__item">
-            <a href="#contacts" class="footer__links">CONTACTS</a>
-            </li>
-        </ul>
+    <div class="footer__container">
+      <h2>MORE</h2>
+      <ul class="footer__menu">
+        <li class="footer__item">
+          <a href="#home" class="footer__links">HOME</a>
+        </li>
+        <li class="footer__item">
+          <a href="#projects" class="footer__links">PROJECTS</a>
+        </li>
+        <li class="footer__item">
+          <a
+            href="/Files/CV_Alex_Ohlin.pdf"
+            class="footer__links"
+            target="_blank"
+            download="CV_Alex_Ohlin.pdf"
+            >ALEX CV</a
+          >
+        </li>
+        <li class="footer__item">
+          <a href="#contacts" class="footer__links">CONTACTS</a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>

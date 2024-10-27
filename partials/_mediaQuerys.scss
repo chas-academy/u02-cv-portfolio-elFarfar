@@ -1,116 +1,220 @@
-//MEDIA QUIRES-- NAVBAR--
-
-
-
-
-@media screen and (max-width: 430px) {
-  .navbar {
-    height: 50px; /* Reduce navbar height */
-    font-size: 0.9rem; /* Reduce overall font size */
-  }
-
-  .navbar__container {
-    padding: 0 30px;
-  }
-
-  #navbar__logo {
-    font-size: 1.5rem; /* Make logo smaller */
-  }
-
-  .navbar__menu {
-    display: none; /* Hide menu for now */
-  }
-
-  .navbar__btn {
-    display: none; /* Hide button */
-  }
-  
-
-
-
-}
-
-
-
-//HERO SECTION//
-
-
-@media (max-width: 1024px) {
-  .main {
-    height: 100vh;
-  }
-  .main__content h1, .service__content h1, .projects__content h1 {
-    font-size: 3rem; /* Reduced font size */
-  }
-  .main__content p, .service__content p, .projects__content p {
-    font-size: 1.6rem; /* Slightly smaller for readability */
-  }
-}
+//NAVBAR
 
 @media (max-width: 768px) {
-  .main, .service, .projects {
-    height: auto; /* Adjust height for mobile scrolling */
-    padding: 20px; /* Add padding for better readability */
+  .body {
+    max-width: 1300px;
   }
-  
-  .main__content h1, .service__content h1, .projects__content h1 {
-    font-size: 2.5rem;
-  }
-  
-  .main__content p, .service__content p, .projects__content p {
-    font-size: 1.4rem;
-  }
-  
-  .projects__video--container, .main__img--arrow {
-    padding-top: 0;
+  .navbar__menu {
+    display: none;
     flex-direction: column;
+    position: absolute;
+    top: 60px;
     width: 100%;
-    align-items: center;
+    background-color: $lightGreenColor;
+    gap: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: (4px);
   }
-  
-  .service__content p {
-    width: 90%; /* Adapt width for mobile */
-  }
-  
-  #profilfoto {
-    width: 90%;
-  }
-  
-  table {
-    font-size: 0.9rem; /* Smaller font for tables */
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
-@media (max-width: 480px) {
-  .main__content h1, .service__content h1, .projects__content h1 {
+  /* Visa menyn när checkboxen är markerad */
+  .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
+    display: flex;
+  }
+
+  .navbar__icon {
+    display: block;
+    font-size: 3.5rem;
+    color: $orangeColor;
+    cursor: pointer;
+    top: 0;
+  }
+
+  .navbar__checkbox {
+    display: none;
+  }
+
+  .main__content h1 {
+    font-size: 3rem;
+  }
+  .main__content p {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  .service__content h1 {
+    font-size: 3rem;
+  }
+
+  .service__content p {
+    font-size: 1rem;
+  }
+
+  .service__content b {
+    font-size: 1rem;
+  }
+
+  .service__img {
+    width: 260px;
+    height: 420px;
+  }
+
+  .projects__content h1 {
+    font-size: 3rem;
+  }
+
+  .projects__content p {
+    font-size: 1rem;
+  }
+
+  th {
+    font-size: 1.8rem;
+    margin: 0;
+    width: 100%;
+  }
+  table {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .projects__video--container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacts__content h1 {
     font-size: 2rem;
   }
-  .main__content p, .service__content p, .projects__content p {
-    font-size: 1.2rem;
+
+  .contacts__content h2 {
+    font-size: 1rem;
   }
 
-  .projects__content p, .service__content p {
+  .contacts__content p {
+    font-size: 1.5rem;
+  }
+
+  .social__media--links {
+    font-size: 2rem;
+  }
+
+  .footer__container h2 {
+    font-size: 2rem;
+  }
+
+  .footer__links {
+    font-size: 1rem;
+    margin: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .body {
+    max-width: 1300px;
+  }
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
     width: 100%;
+    background-color: $lightGreenColor;
+    gap: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: (4px);
   }
 
-  #profilfoto {
-    width: 80%;
+  .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
+    display: flex;
   }
-  
-  .projects__video--container {
-    width: 50%;
+
+  .navbar__icon {
+    display: block;
+    font-size: 3.5rem;
+    color: $orangeColor;
+    cursor: pointer;
+    top: 0;
+  }
+
+  .navbar__checkbox {
+    display: none;
+  }
+
+  .main__content h1 {
+    font-size: 3rem;
+  }
+  .main__content p {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  .service__content h1 {
+    font-size: 3rem;
+  }
+
+  .service__content p {
+    font-size: 1rem;
+  }
+
+  .service__content b {
+    font-size: 1rem;
+  }
+
+  .service__img {
+    width: 260px;
+    height: 420px;
+  }
+
+  .projects__content h1 {
+    font-size: 3rem;
+  }
+
+  .projects__content p {
+    font-size: 0.9rem;
   }
   table {
+    margin: 0;
+    padding: 0;
     width: 100%;
   }
+  td,
   th {
-    width: 100%;
-  
+    padding: 0.5px;
+    font-size: 0.7rem;
   }
-  td {
-    width: 100%;
+
+  th {
+    font-size: 0.8rem;
+    margin: 0;
+    width: auto;
+  }
+
+  .projects__video--container {
+    margin: 0;
+  }
+
+  .contacts__content h1 {
+    font-size: 2rem;
+  }
+
+  .contacts__content h2 {
+    font-size: 1rem;
+  }
+
+  .contacts__content p {
+    font-size: 1.5rem;
+  }
+
+  .social__media--links {
+    font-size: 2rem;
+  }
+
+  .footer__container h2 {
+    font-size: 2rem;
+  }
+
+  .footer__links {
+    font-size: 1rem;
+    margin: 10px;
   }
 }

@@ -1,10 +1,9 @@
-@import 'partials/variables';
-@import 'partials/navbar';
-@import 'partials/hero';
-@import 'partials/footer';
-@import 'partials/contacts';
-@import 'partials/mediaQuerys';
-
+@import "partials/variables";
+@import "partials/navbar";
+@import "partials/homepage";
+@import "partials/footer";
+@import "partials/contacts";
+@import "partials/mediaQuerys";
 
 * {
   box-sizing: border-box;
@@ -13,10 +12,9 @@
   font-family: "DM Serif Display", serif;
 }
 
-
 body {
-  height: 120vh;
-
+  width: 100%;
+  margin: 0 auto;
 }
 
 html {

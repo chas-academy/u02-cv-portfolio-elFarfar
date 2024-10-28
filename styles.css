@@ -442,14 +442,14 @@ th {
   .navbar__menu {
     display: none;
     flex-direction: column;
-    width: auto;
     background-color: #CBD2A4;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     z-index: 99;
     position: fixed;
     right: 0;
-    top: 10%;
+    top: 60px;
+    width: 100%;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;
@@ -527,10 +527,10 @@ th {
   }
   .footer__container h2 {
     font-size: 2rem;
+    margin-top: 20px;
   }
   .footer__links {
     font-size: 1rem;
-    margin: 10px;
   }
 }
 @media (max-width: 375px) {
@@ -538,13 +538,10 @@ th {
     display: none;
     flex-direction: column;
     position: fixed;
-    top: 60px;
-    width: 100%;
-    background-color: #CBD2A4;
     gap: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    top: 5%;
+    top: 10%;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;
@@ -570,7 +567,7 @@ th {
     font-size: 3rem;
   }
   .service__content p {
-    font-size: 0.4rem;
+    font-size: 0.9rem;
   }
   .service__content b {
     font-size: 1rem;
@@ -616,7 +613,7 @@ th {
   }
   .footer__links {
     font-size: 1rem;
-    margin: 10px;
+    margin: 1px;
   }
 }
 * {

@@ -48,7 +48,7 @@
     z-index: 99;
     position: fixed;
     right: 0;
-    top: 5%;
+    top: 10%;
   }
 
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
@@ -73,6 +73,13 @@
   .main__content p {
     font-size: 2rem;
     width: auto;
+  }
+
+  .main__img--arrow {
+    margin-top: 50px;
+  }
+  .service__content{
+    margin-top: 20px;
   }
 
   .service__content h1 {
@@ -174,6 +181,7 @@
   .navbar__checkbox {
     display: none;
   }
+  
 
   .main__content h1 {
     font-size: 3rem;

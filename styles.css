@@ -538,6 +538,7 @@ th {
     gap: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
+    top: 5%;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;

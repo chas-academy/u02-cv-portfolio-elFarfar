@@ -447,12 +447,12 @@ th {
     border-radius: 4px;
     position: fixed;
     right: 0;
-    top: 60px;
-    width: 100%;
-    height: 30%;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;
+    height: 30%;
+    top: 60px;
+    position: fixed;
   }
   .navbar__icon {
     display: block;
@@ -481,6 +481,7 @@ th {
   }
   .service__content p {
     font-size: 1.5rem;
+    margin: 0 auto;
   }
   .service__content b {
     font-size: 1.5rem;
@@ -540,11 +541,12 @@ th {
     gap: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    top: 10%;
-    height: 30%;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;
+    height: 30%;
+    top: 10%;
+    position: fixed;
   }
   .navbar__icon {
     display: block;

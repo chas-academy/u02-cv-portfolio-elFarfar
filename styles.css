@@ -448,8 +448,12 @@ th {
     position: fixed;
     right: 0;
     top: 10%;
+    -webkit-appearance: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
+    visibility: visible;
+    opacity: 3;
     display: flex;
     display: -webkit-flex;
   }

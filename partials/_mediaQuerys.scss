@@ -42,7 +42,6 @@
     background-color: $lightGreenColor;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: (4px);
-    z-index: 99;
     position: fixed;
     right: 0;
     top: 60px;
@@ -58,7 +57,6 @@
     font-size: 3rem;
     color: $orangeColor;
     cursor: pointer;
-    z-index: 100;
   }
 
   .navbar__checkbox {
@@ -89,7 +87,7 @@
   }
 
   .service__content b {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .service__img {

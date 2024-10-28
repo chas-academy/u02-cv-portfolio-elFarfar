@@ -439,12 +439,18 @@ th {
   }
 }
 @media (max-width: 767px) {
-  .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
-    display: flex;
-    height: 30%;
-    top: 60px;
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    background-color: #CBD2A4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
     position: fixed;
     right: 0;
+    top: 10%;
+  }
+  .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
+    display: flex;
   }
   .navbar__icon {
     display: block;
@@ -533,12 +539,10 @@ th {
     gap: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
+    top: 10%;
   }
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;
-    height: 30%;
-    top: 10%;
-    position: fixed;
   }
   .navbar__icon {
     display: block;

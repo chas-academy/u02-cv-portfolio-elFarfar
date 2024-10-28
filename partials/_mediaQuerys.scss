@@ -1,32 +1,64 @@
-//NAVBAR
-
-@media (max-width: 768px) {
-  .body {
-    max-width: 1300px;
+@media (max-width: 1024px) {
+  .main__content h1 {
+    font-size: 5rem;
   }
+  .main__content p {
+    font-size: 3rem;
+  }
+
+  .service__content h1 {
+    font-size: 4rem;
+  }
+  .service__content p {
+    font-size: 1.5rem;
+  }
+
+  .service__content b {
+    font-size: 2rem;
+  }
+  .projects__video--container {
+    width: 660px;
+  }
+  .contacts__content h1 {
+    font-size: 3.5rem;
+  }
+  .contacts__content h2 {
+    font-size: 2.5rem;
+  }
+  .social__media--links {
+    text-decoration: underline;
+  }
+  .footer__container h2 {
+    font-size: 3.5rem;
+  }
+  .footer__links {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 767px) {
   .navbar__menu {
     display: none;
     flex-direction: column;
-    position: absolute;
-    top: 60px;
-    width: 100%;
+    width: auto;
     background-color: $lightGreenColor;
-    gap: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: (4px);
+    z-index: 99;
+    position: fixed;
+    right: 0;
+    top: 5%;
   }
 
-  /* Visa menyn när checkboxen är markerad */
   .navbar__checkbox:checked + .navbar__icon + .navbar__menu {
     display: flex;
   }
 
   .navbar__icon {
     display: block;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: $orangeColor;
     cursor: pointer;
-    top: 0;
+    z-index: 100;
   }
 
   .navbar__checkbox {
@@ -34,10 +66,10 @@
   }
 
   .main__content h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .main__content p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: auto;
   }
 
@@ -46,11 +78,11 @@
   }
 
   .service__content p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .service__content b {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .service__img {
@@ -66,6 +98,7 @@
     font-size: 1rem;
   }
 
+  td,
   th {
     font-size: 1.8rem;
     margin: 0;
@@ -78,8 +111,9 @@
   }
 
   .projects__video--container {
-    width: auto;
-    margin: 0;
+    max-width: 100%;
+    width: 400px;
+    margin: 0 auto;
     padding: 0;
   }
 
@@ -108,14 +142,13 @@
     margin: 10px;
   }
 }
-@media (max-width: 430px) {
-  .body {
-    max-width: 1300px;
-  }
+//NAVBAR
+
+@media (max-width: 375px) {
   .navbar__menu {
     display: none;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 60px;
     width: 100%;
     background-color: $lightGreenColor;
@@ -130,7 +163,7 @@
 
   .navbar__icon {
     display: block;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: $orangeColor;
     cursor: pointer;
     top: 0;
@@ -153,7 +186,7 @@
   }
 
   .service__content p {
-    font-size: 1rem;
+    font-size: 0.4rem;
   }
 
   .service__content b {
@@ -175,22 +208,18 @@
   table {
     margin: 0;
     padding: 0;
-    width: 100%;
-  }
-  td,
-  th {
-    padding: 0.5px;
-    font-size: 0.7rem;
+    width: 300px;
   }
 
   th {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0;
-    width: auto;
   }
 
   .projects__video--container {
-    margin: 0;
+    width: 330px;
+    padding: 0;
+    margin: 0 auto;
   }
 
   .contacts__content h1 {

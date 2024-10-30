@@ -132,7 +132,7 @@
 }
 
 .main__content h1 {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-size: 4rem;
   font-weight: 400;
   top: -40%;
@@ -168,7 +168,7 @@
 }
 
 .service__content h1 {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-size: 4rem;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .service__content b {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-size: 1.6rem;
   font-weight: 300;
 }
@@ -240,14 +240,14 @@
   justify-content: center;
   align-items: center;
   font-size: 4rem;
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-weight: 200;
 }
 
 .projects__content p {
   font-size: 1.5rem;
   text-align: center;
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   width: 100%;
   align-items: center;
   position: relative;
@@ -301,7 +301,7 @@ th {
 }
 
 .footer__container h2 {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-size: 3rem;
   padding-bottom: 30px;
 }
@@ -356,7 +356,7 @@ th {
 }
 
 .contacts__content h1 {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-size: 3.5rem;
   margin: 40px;
 }
@@ -367,7 +367,7 @@ th {
 }
 
 .contacts__content p {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   font-size: 1.4rem;
 }
 
@@ -399,7 +399,7 @@ th {
 }
 
 .social__media--links:hover {
-  color: #ff761b;
+  color: rgba(253, 93, 1, 0.9176470588);
   transform: scale(1.2);
 }
 
@@ -460,7 +460,7 @@ th {
   .navbar__icon {
     display: block;
     font-size: 3rem;
-    color: #ff761b;
+    color: rgba(253, 93, 1, 0.9176470588);
     cursor: pointer;
   }
   .navbar__checkbox {
@@ -536,7 +536,7 @@ th {
     font-size: 1rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .navbar__menu {
     display: none;
     flex-direction: column;
@@ -553,7 +553,7 @@ th {
   .navbar__icon {
     display: block;
     font-size: 3rem;
-    color: #ff761b;
+    color: rgba(253, 93, 1, 0.9176470588);
     cursor: pointer;
     top: 0;
   }
